@@ -23,7 +23,7 @@ data "aws_ami" "ubuntu_24_04" {
 resource "aws_instance" "app_server" {
   ami           = data.aws_ami.ubuntu_24_04.id
   instance_type = "t2.micro"
-  user_data     = file("${path.module}/files/hello_world.txt")
+  user_data     = file("${path.module}/files/setup_hello_world")
 
   tags = {
     Name = var.instance_name
