@@ -1,8 +1,8 @@
 terraform {
   cloud {
-    organization = "marek130"
+    organization = var.hcp_organization
     workspaces {
-      name = "learn-terraform-aws"
+      name = var.hcp_workspace
     }
   }
 

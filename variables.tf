@@ -3,3 +3,13 @@ variable "instance_name" {
   type        = string
   default     = "ExampleAppServerInstance"
 }
+
+variable "hcp_organization" {
+  description = "HCP organization"
+  type        = string
+}
+
+variable "hcp_workspace" {
+  description = "HCP workspace"
+  type        = string
+}
