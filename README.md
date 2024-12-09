@@ -1,3 +1,6 @@
+![CI](https://github.com/marek130/ver_assignment_cloud_engineer/actions/workflows/terraform_ci.yaml/badge.svg)
+[![Terraform CD](https://github.com/marek130/ver_assignment_cloud_engineer/actions/workflows/terraform_cd.yaml/badge.svg?branch=main)](https://github.com/marek130/ver_assignment_cloud_engineer/actions/workflows/terraform_cd.yaml)
+
 # Assignment for the Cloud Engineer position
 
 This is a list of tasks of the technical assignment for the Cloud Engineer position.  
